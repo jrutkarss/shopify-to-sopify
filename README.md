@@ -10,27 +10,17 @@ To install ShopifyScraper, run the following command:
 ```bash
 pip3 install git+https://github.com/practical-data-science/ShopifyScraper.git
 ```
+after that clone this repository.
+```
+git clone https://github.com/easikdevops/shopify-to-sopify.git
+cd shopify-to-sopify
 
 ### Usage
 
-```python
-from shopify_scraper import scraper
-
-url = "https://yourshopifydomain.com"
-
-parents = scraper.get_products(url)
-parents.to_csv('parents.csv', index=False)
-print('Parents: ', len(parents))
-
-
-children = scraper.get_variants(parents)
-children.to_csv('children.csv', index=False)
-print('Children: ', len(children))
-
-
-images = scraper.get_images(parents)
-images.to_csv('images.csv', index=False)
-print('Images: ', len(images))
+```
+nano main.py # cahnge your domain name
+python3 main.py
+python3 final_import_file.py
 
 ```
 
