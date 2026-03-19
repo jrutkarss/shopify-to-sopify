@@ -13,6 +13,7 @@ pip3 install git+https://github.com/practical-data-science/ShopifyScraper.git
 after that clone this repository.
 ```git clone https://github.com/easikdevops/shopify-to-sopify.git
 cd shopify-to-sopify
+```
 
 ### Usage
 
