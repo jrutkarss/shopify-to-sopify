@@ -11,16 +11,13 @@ To install ShopifyScraper, run the following command:
 pip3 install git+https://github.com/practical-data-science/ShopifyScraper.git
 ```
 after that clone this repository.
-```
-git clone https://github.com/easikdevops/shopify-to-sopify.git
+```git clone https://github.com/easikdevops/shopify-to-sopify.git
 cd shopify-to-sopify
 
 ### Usage
 
-```
-nano main.py # cahnge your domain name
+```nano main.py # cahnge your domain name
 python3 main.py
 python3 final_import_file.py
-
 ```
 
