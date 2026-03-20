@@ -1,3 +1,4 @@
+# import libraries and choos os filepath
 from setuptools import setup
 
 from os import path
