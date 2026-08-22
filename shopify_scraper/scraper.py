@@ -1,9 +1,3 @@
-"""
-Shopify scraper
-Description: Scrapes products from a Shopify store by parsing products.json and converting it to a pandas DataFrame.
-Author: Jr Utkarss (fixed for pandas 2.0+ compatibility)
-"""
-
 import json
 import pandas as pd
 import requests
